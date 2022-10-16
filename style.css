@@ -1,0 +1,178 @@
+body {
+    width: 100%;
+}
+
+.main-content {
+    width: 100%;
+}
+
+h1 {
+    font-size: calc(32px + (85 - 28) * ((100vw - 300px) / (2000 - 300)));
+    line-height: calc(40px + (92 - 36) * ((100vw - 300px) / (2000 - 300)));
+}
+
+h2 {
+    font-size: calc(24px + (54 - 24) * ((100vw - 300px) / (2000 - 300)));
+    line-height: calc(32px + (62 - 32) * ((100vw - 300px) / (2000 - 300)));
+}
+
+h3 {
+    font-size: calc(18px + (36 - 18) * ((100vw - 300px) / (2000 - 300)));
+    line-height: calc(24px + (42 - 24) * ((100vw - 300px) / (2000 - 300)));
+}
+
+h4 {
+    font-size: calc(16px + (24 - 15) * ((100vw - 300px) / (2000 - 300)));
+    line-height: calc(22px + (32 - 24) * ((100vw - 300px) / (2000 - 300)));
+}
+
+h5 {
+    font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (2000 - 300)));
+    line-height: calc(20px + (22 - 20) * ((100vw - 300px) / (2000 - 300)));
+}
+
+h6 {
+    font-size: calc(16px + (18 - 16) * ((100vw - 800px) / (2000 - 800)));
+    line-height: calc(20px + (24 - 20) * ((100vw - 800px) / (2000 - 800)));
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: calc(27px + (85 - 28) * ((100vw - 300px) / (2000 - 300)));
+        line-height: calc(35px + (92 - 36) * ((100vw - 300px) / (2000 - 300)));
+    }
+
+    h2 {
+        font-size: calc(21px + (54 - 24) * ((100vw - 300px) / (2000 - 300)));
+        line-height: calc(27px + (62 - 32) * ((100vw - 300px) / (2000 - 300)));
+    }
+
+    h3 {
+        font-size: calc(18px + (36 - 18) * ((100vw - 300px) / (2000 - 300)));
+        line-height: calc(23px + (42 - 24) * ((100vw - 300px) / (2000 - 300)));
+    }
+
+    h4 {
+        font-size: calc(17px + (24 - 15) * ((100vw - 300px) / (2000 - 300)));
+        line-height: calc(22px + (32 - 24) * ((100vw - 300px) / (2000 - 300)));
+    }
+
+    h5 {
+        font-size: calc(16px + (18 - 14) * ((100vw - 300px) / (2000 - 300)));
+        line-height: calc(20px + (22 - 20) * ((100vw - 300px) / (2000 - 300)));
+    }
+
+    h6 {
+        font-size: calc(15px + (18 - 16) * ((100vw - 800px) / (2000 - 800)));
+        line-height: calc(20px + (24 - 20) * ((100vw - 800px) / (2000 - 800)));
+    }
+}
+
+p {
+    font-size: 1.5vw;
+}
+
+/* navigation */
+.logo {
+
+}
+
+.nav-item-container {
+    width: fit-content;
+}
+
+.nav-item-container ul li {
+    list-style: none;
+    margin-bottom: 0.3em;
+}
+
+.nav-item-container ul li:first-child {
+    background-color: grey;
+}
+
+.nav-item-container ul li:nth-child(2) {
+    background-color: #fcb603;
+}
+
+.nav-item-container ul li:nth-child(3) {
+    background-color: #28a745;
+}
+
+.nav-item-container ul li:nth-child(4) {
+    background-color: #e6e600;
+}
+
+.nav-item-container ul li:nth-child(5) {
+    background-color: #cc0099;
+}
+
+.nav-item-container ul li:nth-child(6) {
+    background-color: #000099;
+}
+
+.nav-item-container ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 1em;
+    font-size: x-large;
+}
+
+/* main container */
+.main-content {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 7em;
+    -webkit-box-shadow: #666 0px 0px 20px;
+    -moz-box-shadow: #666 0px 0px 20px;
+    box-shadow: #666 0px 0px 20px;
+    opacity: 0.99999;
+}
+
+.main-content {
+
+}
+
+.quizz-container {
+    position: relative;
+}
+
+.red-container {
+    text-align: center;
+    clip-path: polygon(0 9%, 100% 0%, 100% 102%, 0 88%);
+    background-color: #C5003E;
+    width: 30em;
+    padding: 2em;
+
+}
+.red-container h1{
+    color: aliceblue;
+}
+.red-container p {
+    color: black;
+}
+
+.blue-container {
+    width: 20em;
+    padding: 2em;
+    background-color: blue;
+    clip-path: polygon(0% 0%, 78% 22%, 100% 28%, 87% 71%, 0% 93%);
+    position: absolute;
+    bottom: -5.3em;
+    left: 5em;
+    transform: skewY(358deg);
+
+
+}
+.blue-container img {
+    width: 3em;
+}
+.blue-container p{
+    display: inline;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .logo img {
+        width: 8em;
+    }
+}
