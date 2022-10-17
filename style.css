@@ -155,25 +155,28 @@ p {
     color: black;
 }
 
-.blue-container {
+.gray-container {
     width: 20em;
     padding: 2em;
     background-color: #E2E3E7;
     clip-path: polygon(0% 0%, 78% 21%, 100% 27%, 87% 71%, 0% 93%);
     position: absolute;
     left: 40%;
-    top: 88%;
-    transform: skewY(357deg);
+    top: 91%;
+    transform: skewY(359deg);
 
 
 }
 
-.blue-container img {
-    width: 3em;
+.gray-container img {
+    width: 4em;
+    vertical-align: bottom;
 }
 
-.blue-container p {
+.gray-container p {
     display: inline;
+    vertical-align: middle;
+    font-size: xxx-large;
 }
 
 /* footer */
