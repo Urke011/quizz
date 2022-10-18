@@ -156,27 +156,29 @@ p {
 }
 
 .gray-container {
-    width: 20em;
+    display: flex;
+    width: 29em;
     padding: 2em;
     background-color: #E2E3E7;
-    clip-path: polygon(0% 0%, 78% 21%, 100% 27%, 87% 71%, 0% 93%);
+    clip-path: polygon(0% -1%, 78% 21%, 100% 28%, 87% 69%, 0% 93%);
     position: absolute;
     left: 40%;
     top: 91%;
-    transform: skewY(359deg);
-
+    transform: skewY(0deg);
+    z-index: -1;
 
 }
 
 .gray-container img {
-    width: 4em;
+    width: 4.8em;
     vertical-align: bottom;
 }
 
 .gray-container p {
-    display: inline;
     vertical-align: middle;
     font-size: xxx-large;
+    margin-left: 0.5em;
+    font-weight: 500;
 }
 
 /* footer */
