@@ -224,10 +224,21 @@ p{
     .footer-links div{
         margin: 0 auto;
     }
+    .gray-container{
+        padding: 0;
+        width: 41%;
+        left: 32%;
+        top: 89%;
+    }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  
+    .gray-container{
+        left: 34%;
+        padding: 0;
+        width: 39%;
+        top: 90%;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
