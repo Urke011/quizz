@@ -36,7 +36,7 @@ h6 {
 
 @media screen and (max-width: 800px) {
     h1 {
-        font-size: calc(27px + (85 - 28) * ((100vw - 300px) / (2000 - 300)));
+        font-size: calc(35px + (85 - 28) * ((100vw - 300px) / (2000 - 300)));
         line-height: calc(35px + (92 - 36) * ((100vw - 300px) / (2000 - 300)));
     }
 
@@ -66,8 +66,8 @@ h6 {
     }
 }
 
-p {
-    font-size: 2vw;
+p{
+    font-size: calc(14px + (24 - 15) * ((100vw - 300px) / (2000 - 300)));
 }
 
 /* navigation */
@@ -153,6 +153,8 @@ p {
 
 .red-container p {
     color: black;
+    font-weight: 400;
+    font-size: xx-large;
 }
 
 .gray-container {
@@ -168,10 +170,11 @@ p {
     z-index: -1;
 
 }
-
+.gray-container div {
+    align-self: center;
+}
 .gray-container img {
-    width: 4.8em;
-    vertical-align: bottom;
+    width: 53px;
 }
 
 .gray-container p {
@@ -224,7 +227,7 @@ p {
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
+  
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
