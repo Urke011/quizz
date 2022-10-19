@@ -232,14 +232,21 @@ p{
         padding: 0;
         width: 41%;
         left: 32%;
-        top: 89%;
+        top: 88%;
     }
     .gray-container p{
-        font-size: 1.5em;
+        font-size: 1em;
         padding-top: 0.6em;
     }
     .gray-container img {
-        width: 2.5em;
+        width: 1.5em;
+        vertical-align: baseline;
+    }
+    .red-container{
+        padding-top: calc(16% - 20px);
+    }
+    .red-container p {
+        font-size: medium;
     }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -269,7 +276,7 @@ p{
         clip-path: polygon(0% -1%, 78% 21%, 100% 28%, 87% 69%, 0% 93%);
         position: absolute;
         left: 34%;
-        top: 82%;
+        top: 85%;
     }
     .gray-container p{
         font-size: 2.5em;
@@ -300,6 +307,12 @@ p{
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    .red-container {
+        padding-bottom:  calc(9% - 20px);
+    }
+    .red-container p{
+        padding-top: 1em;
+    }
     .gray-container {
         width: 35%;
         position: absolute;
