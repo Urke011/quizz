@@ -234,6 +234,13 @@ p{
         left: 32%;
         top: 89%;
     }
+    .gray-container p{
+        font-size: 1.5em;
+        padding-top: 0.6em;
+    }
+    .gray-container img {
+        width: 2.5em;
+    }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -243,21 +250,33 @@ p{
         width: 39%;
         top: 90%;
     }
+    .gray-container p{
+        font-size: 1.8em;
+        padding-top: 0.6em;
+        padding-bottom: 0.2em;
+    }
+    .gray-container img {
+        width: 2.2em;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .gray-container {
         display: flex;
-        width: 46%;
+        width: 40%;
         padding: 0.3em;
         clip-path: polygon(0% -1%, 78% 21%, 100% 28%, 87% 69%, 0% 93%);
         position: absolute;
-        left: 29%;
-        top: 86%;
+        left: 34%;
+        top: 82%;
     }
     .gray-container p{
-        margin-top: 0.1em;
+        font-size: 2.5em;
+    }
+    .gray-container img {
+        width: 2.7em;
+        margin-bottom: -0.3em;
     }
 }
 
@@ -271,7 +290,7 @@ p{
     clip-path: polygon(0% -1%, 78% 21%, 100% 28%, 87% 69%, 0% 93%);
     position: absolute;
     left: 38%;
-    top: 91%;
+    top: 86%;
     transform: skewY(0deg);
     z-index: -1;
 }
@@ -285,6 +304,14 @@ p{
         width: 35%;
         position: absolute;
         left: 40%;
-        top: 91%;
+        top: 89%;
+    }
+    .gray-container p{
+        margin-left: 0.5em;
+        font-size: 3em;
+        padding-bottom: 0.3em;
+    }
+    .gray-container img{
+        width: 4em;
     }
 }
