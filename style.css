@@ -216,6 +216,9 @@ p{
 .footer-links a span{
     font-weight: 500;
 }
+.footer-links a{
+    font-size: calc(14px + (24 - 15) * ((100vw - 300px) / (2000 - 300)));
+}
 
 
 
