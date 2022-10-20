@@ -78,9 +78,14 @@ p{
     list-style: none;
     margin-bottom: 0.3em;
 }
-
+.nav-item-container ul li a{
+    font-weight: 500;
+}
 .nav-item-container ul li:first-child {
     background-color: grey;
+}
+.nav-item-container ul li:first-child a{
+    color: black;
 }
 
 .nav-item-container ul li:nth-child(2) {
@@ -107,7 +112,7 @@ p{
     text-decoration: none;
     color: aliceblue;
     padding: 1em;
-    font-size: x-large;
+    font-size: xx-large;
 }
 .left-nav-content img{
     width: 4em;
@@ -228,6 +233,12 @@ p{
     .navigation {
         padding: 0;
         margin: 0;
+    }
+    .nav-item-container ul li a {
+        font-size: large;
+    }
+    .nav-item-container ul{
+        padding-left: 1.5em;
     }
     .left-nav-content button{
         margin-right: 0;
